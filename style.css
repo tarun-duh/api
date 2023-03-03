@@ -13,15 +13,15 @@ body {
   font-family: "poppins";
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 3rem;
-  width: 45%;
-  height: 30%;
+  width: 40%;
+  height: 25%;
   background-color: white;
   color: #9f1239;
 }
 #qoute {
-  font-size: 2rem;
+  font-size: 1.7rem;
   text-align: left;
 }
 #name {
@@ -37,4 +37,34 @@ body {
   width: 10rem;
   font-size: 1rem;
   float: right;
+  cursor: pointer;
+}
+.p {
+  height: 50%;
+}
+.n {
+  height: auto;
+}
+.b {
+  height: auto;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    height: 100vh;
+    background-color: white;
+    color: white;
+  }
+  .main {
+    background-color: #9f1239;
+    padding: 25px;
+    font-size: 28px;
+    color: white;
+    height: 70%;
+    width: 70%;
+  }
+  #qoute,
+  #name,
+  #button {
+    font-size: 28px;
+  }
 }
