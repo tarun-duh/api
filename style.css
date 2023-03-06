@@ -2,23 +2,23 @@
   padding: 0;
   margin: 0;
 }
-body {
+/* body {
   height: 100vh;
   background-color: #9f1239;
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 .main {
   font-family: "poppins";
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
   /* overflow: hidden; */
-  padding: 3rem;
+  /* padding: 3rem;
   width: 40%;
   height: 25%;
   background-color: white;
-  color: #9f1239;
+  color: #9f1239; */
 }
 #qoute {
   font-size: 1.7rem;

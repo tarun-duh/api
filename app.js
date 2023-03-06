@@ -25,12 +25,13 @@ function randomNum() {
   return a;
 }
 let b = randomNum();
-let button = document.querySelector("#button");
-let qoute = document.querySelector("#qoute");
-let name = document.querySelector("#name");
+let button = document.querySelector(".button");
+let qoute = document.querySelector(".qoute");
+let name = document.querySelector(".name");
+
 function update(name1, qoute1) {
   qoute.innerText = qoute1;
-  name.innerText = name1;
+  name.innerText = name1 || "Unknown";
 }
 
 button.addEventListener("click", api);
