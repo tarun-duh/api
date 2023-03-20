@@ -8,17 +8,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
-} */
+}
 .main {
   font-family: "poppins";
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
-  /* overflow: hidden; */
-  /* padding: 3rem;
+  overflow: hidden;
+  padding: 3rem;
   width: 40%;
   height: 25%;
   background-color: white;
-  color: #9f1239; */
+  color: #9f1239;
 }
 #qoute {
   font-size: 1.7rem;
@@ -47,7 +47,7 @@
 }
 .b {
   height: auto;
-}
+} */
 /* @media only screen and (max-width: 600px) {
   body {
     height: 100vh;
