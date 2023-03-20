@@ -10,6 +10,7 @@ function api() {
       if (i == c) {
         // console.log(b[i]);
         update(b[i].author, b[i].text);
+        setBg();
         // function update() {
         //   console.log(qoute);
         //   qoute.innerHTML("");
@@ -33,5 +34,11 @@ function update(name1, qoute1) {
   qoute.innerText = qoute1;
   name.innerText = name1 || "Unknown";
 }
+const setBg = () => {
+  const randomColor = Math.floor(Math.random() * 16777215).toString(16);
+  document.body.style.backgroundColor = "#" + randomColor;
+  // button.style.backgroundColor = "#" + randomColor;
+};
+// setBg();
 
 button.addEventListener("click", api);
