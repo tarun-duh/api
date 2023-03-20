@@ -5,7 +5,7 @@ function api() {
   }).then((result) => {
     let b = result;
     let c = randomNum();
-    console.log(c);
+    // console.log(c);
     for (let i in b) {
       if (i == c) {
         // console.log(b[i]);
@@ -29,6 +29,7 @@ let b = randomNum();
 let button = document.querySelector(".button");
 let qoute = document.querySelector(".qoute");
 let name = document.querySelector(".name");
+let hover1 = document.querySelector(".hover1");
 
 function update(name1, qoute1) {
   qoute.innerText = qoute1;
